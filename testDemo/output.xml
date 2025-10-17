@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.12.0 on win32)" generated="2025-08-25T13:29:34.472795" rpa="false" schemaversion="5">
+<suite id="s1" name="testDemo" source="C:\Users\Rakesh\PycharmProjects\RobotFramework\testDemo\testDemo.robot">
+<test id="s1-t1" name="Validate cart display in the shopping page" line="21">
+<kw name="open the browser with mortgage payment url" owner="resource" type="SETUP">
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2025-08-25T13:29:34.991395" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg time="2025-08-25T13:29:39.292606" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2025-08-25T13:29:39.292606" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 139.0.7258.139 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0xeef173+62931]
+	GetHandleVerifier [0x0xeef1b4+62996]
+	(No symbol) [0x0xd01053]
+	(No symbol) [0x0xd3ad1b]
+	(No symbol) [0x0xd39d39]
+	(No symbol) [0x0xd34c94]
+	(No symbol) [0x0xd30359]
+	(No symbol) [0x0xd7a37a]
+	(No symbol) [0x0xd79c1a]
+	(No symbol) [0x0xd6e2a6]
+	(No symbol) [0x0xd3d5f0]
+	(No symbol) [0x0xd3e464]
+	GetHandleVerifier [0x0x1143463+2504899]
+	GetHandleVerifier [0x0x113e892+2485490]
+	GetHandleVerifier [0x0xf1590a+220522]
+	GetHandleVerifier [0x0xf06388+157672]
+	GetHandleVerifier [0x0xf0cb6d+184269]
+	GetHandleVerifier [0x0xef7158+95672]
+	GetHandleVerifier [0x0xef7300+96096]
+	GetHandleVerifier [0x0xee21aa+9738]
+	BaseThreadInitThunk [0x0x760bfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770f82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x770f827e+238]
+</msg>
+<arg>Chrome</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="FAIL" start="2025-08-25T13:29:34.991395" elapsed="4.301211">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 139.0.7258.139 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0xeef173+62931]
+	GetHandleVerifier [0x0xeef1b4+62996]
+	(No symbol) [0x0xd01053]
+	(No symbol) [0x0xd3ad1b]
+	(No symbol) [0x0xd39d39]
+	(No symbol) [0x0xd34c94]
+	(No symbol) [0x0xd30359]
+	(No symbol) [0x0xd7a37a]
+	(No symbol) [0x0xd79c1a]
+	(No symbol) [0x0xd6e2a6]
+	(No symbol) [0x0xd3d5f0]
+	(No symbol) [0x0xd3e464]
+	GetHandleVerifier [0x0x1143463+2504899]
+	GetHandleVerifier [0x0x113e892+2485490]
+	GetHandleVerifier [0x0xf1590a+220522]
+	GetHandleVerifier [0x0xf06388+157672]
+	GetHandleVerifier [0x0xf0cb6d+184269]
+	GetHandleVerifier [0x0xef7158+95672]
+	GetHandleVerifier [0x0xef7300+96096]
+	GetHandleVerifier [0x0xee21aa+9738]
+	BaseThreadInitThunk [0x0x760bfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770f82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x770f827e+238]
+</status>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" start="2025-08-25T13:29:39.292606" elapsed="0.000000"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" start="2025-08-25T13:29:39.292606" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-08-25T13:29:34.991395" elapsed="4.301211">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 139.0.7258.139 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0xeef173+62931]
+	GetHandleVerifier [0x0xeef1b4+62996]
+	(No symbol) [0x0xd01053]
+	(No symbol) [0x0xd3ad1b]
+	(No symbol) [0x0xd39d39]
+	(No symbol) [0x0xd34c94]
+	(No symbol) [0x0xd30359]
+	(No symbol) [0x0xd7a37a]
+	(No symbol) [0x0xd79c1a]
+	(No symbol) [0x0xd6e2a6]
+	(No symbol) [0x0xd3d5f0]
+	(No symbol) [0x0xd3e464]
+	GetHandleVerifier [0x0x1143463+2504899]
+	GetHandleVerifier [0x0x113e892+2485490]
+	GetHandleVerifier [0x0xf1590a+220522]
+	GetHandleVerifier [0x0xf06388+157672]
+	GetHandleVerifier [0x0xf0cb6d+184269]
+	GetHandleVerifier [0x0xef7158+95672]
+	GetHandleVerifier [0x0xef7300+96096]
+	GetHandleVerifier [0x0xee21aa+9738]
+	BaseThreadInitThunk [0x0x760bfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770f82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x770f827e+238]
+</status>
+</kw>
+<kw name="Close browser session" owner="resource" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-08-25T13:29:39.292606" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-08-25T13:29:39.292606" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-08-25T13:29:34.991395" elapsed="4.301211">Setup failed:
+SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 139.0.7258.139 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0xeef173+62931]
+	GetHandleVerifier [0x0xeef1b4+62996]
+	(No symbol) [0x0xd01053]
+	(No symbol) [0x0xd3ad1b]
+	(No symbol) [0x0xd39d39]
+	(No symbol) [0x0xd34c94]
+	(No symbol) [0x0xd30359]
+	(No symbol) [0x0xd7a37a]
+	(No symbol) [0x0xd79c1a]
+	(No symbol) [0x0xd6e2a6]
+	(No symbol) [0x0xd3d5f0]
+	(No symbol) [0x0xd3e464]
+	GetHandleVerifier [0x0x1143463+2504899]
+	GetHandleVerifier [0x0x113e892+2485490]
+	GetHandleVerifier [0x0xf1590a+220522]
+	GetHandleVerifier [0x0xf06388+157672]
+	GetHandleVerifier [0x0xf0cb6d+184269]
+	GetHandleVerifier [0x0xef7158+95672]
+	GetHandleVerifier [0x0xef7300+96096]
+	GetHandleVerifier [0x0xee21aa+9738]
+	BaseThreadInitThunk [0x0x760bfcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x770f82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x770f827e+238]
+</status>
+</test>
+<doc>To validate the login page</doc>
+<status status="FAIL" start="2025-08-25T13:29:34.488419" elapsed="4.819288"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="testDemo" id="s1" pass="0" fail="1" skip="0">testDemo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

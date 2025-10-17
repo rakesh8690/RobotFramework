@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.12.0 on win32)" generated="2025-09-25T20:20:13.207877" rpa="false" schemaversion="5">
+<suite id="s1" name="Csv File" source="C:\Users\Rakesh\PycharmProjects\RobotFramework\csv_file.robot">
+<test id="s1-t1" name="Read CSV File" line="7">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-09-25T20:20:13.292602" level="INFO">${data} = &lt;_csv.reader object at 0x03B38178&gt;</msg>
+<var>${data}</var>
+<arg>__import__('csv').reader(open('C:/Users/Rakesh/Downloads/user.csv'))</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-09-25T20:20:13.292602" elapsed="0.000000"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${row}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-09-25T20:20:13.292602" elapsed="0.000000"/>
+</kw>
+<var name="${row}">['username', 'password']</var>
+<status status="PASS" start="2025-09-25T20:20:13.292602" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${row}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-09-25T20:20:13.292602" elapsed="0.000000"/>
+</kw>
+<var name="${row}">['user1', 'pass1']</var>
+<status status="PASS" start="2025-09-25T20:20:13.292602" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${row}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-09-25T20:20:13.292602" elapsed="0.000000"/>
+</kw>
+<var name="${row}">['user2', 'pass2']</var>
+<status status="PASS" start="2025-09-25T20:20:13.292602" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${row}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-09-25T20:20:13.292602" elapsed="0.000000"/>
+</kw>
+<var name="${row}">['admin', 'admin123']</var>
+<status status="PASS" start="2025-09-25T20:20:13.292602" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${row}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-09-25T20:20:13.308224" elapsed="0.000000"/>
+</kw>
+<var name="${row}">['testuser', 'test@123']</var>
+<status status="PASS" start="2025-09-25T20:20:13.308224" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${row}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-09-25T20:20:13.308224" elapsed="0.000000"/>
+</kw>
+<var name="${row}">['guest', 'guest123']</var>
+<status status="PASS" start="2025-09-25T20:20:13.308224" elapsed="0.000000"/>
+</iter>
+<var>${row}</var>
+<value>@{data}</value>
+<status status="PASS" start="2025-09-25T20:20:13.292602" elapsed="0.015622"/>
+</for>
+<status status="PASS" start="2025-09-25T20:20:13.292602" elapsed="0.015622"/>
+</test>
+<status status="PASS" start="2025-09-25T20:20:13.207877" elapsed="0.100347"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Csv File" id="s1" pass="1" fail="0" skip="0">Csv File</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
