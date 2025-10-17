@@ -41,7 +41,7 @@ Verify error message is correct
 #    Should Be Equal As Strings    ${result}    Incorrect username/password.
     Element Text Should Be    ${Login_Error_Message}    Incorrect username/password.
 
-
+#Method for verify ca rt details on the shop page
 Verify cart details on the shop page
 
     @{expectedList} =    Create List    iphone X    Samsung Note 8    Nokia Edge    Blackberry
